@@ -47,7 +47,7 @@ enum enPermissions {
 
 enum enManageUsersMenu {
 
-	UsersList = 1,
+	UsersList = 1
 	
 
 
