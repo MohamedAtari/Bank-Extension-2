@@ -12,8 +12,7 @@ This project simulates real banking operations with file-based storage, user aut
 - Delete / Update / Find Client
 
 **💸 Transactions Module:**
-- Deposit
-- Withdraw (with balance validation)
+- Deposit / Withdraw (with balance validation)
 - Total Balances Report
 
 **🔐 User & Security System:**
@@ -25,17 +24,23 @@ This project simulates real banking operations with file-based storage, user aut
 **💾 Data Persistence:**
 - All data saved in `Client.txt` & `Users.txt` using custom delimiter `#//#`
 
-### 🛠️ Tech Stack
+### 🛠 Tech Stack
 - Language: C++ 
 - Concepts: Structs, Vectors, Enums, File Handling (fstream), iomanip, Bitwise Operators
 - Storage: Text Files
+
+### ⚡ V2 - Refactored Version
+- Removed `GoBackToMainMenu` & `PerformMainMenuOptions`
+- Replaced Recursion with `while(true)` + `return` for all menus
+- No more Stack Overflow on long usage
+- Clean logout flow
 
 ### 🚀 How to Run
 
 1. Clone the repo
 2. Open with Visual Studio / VS Code
 3. Compile and Run `main.cpp`
-4. Default Login -> Username: `Admin` | Password: `Admin` (you can create it in Users.txt as `Admin#//#Admin#//-1)
+4. Default Login -> Username: `Admin` | Password: `Admin` (in Users.txt as `Admin#//#Admin#//#-1`)
 
 ### 🔮 Future Improvements
 - [ ] Refactor to OOP (Classes)
@@ -44,4 +49,4 @@ This project simulates real banking operations with file-based storage, user aut
 - [ ] Add Transaction History Log
 
 ---
-Developed by [Mohamed Atari](https://www.linkedin.com/in/your-profile) - Feedback is welcome!
+Developed by [Mohamed Atari](https://github.com/mohamadatarii) - Feedback is welcome!
